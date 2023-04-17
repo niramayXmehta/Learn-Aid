@@ -1,0 +1,94 @@
+.blue_box {
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+    background-color: rgb(98, 113, 177);
+}
+
+.white_box {
+    background-color: white;
+    color: black;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+}
+
+/* -------------------------------------------------------- */
+
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15em;
+}
+
+.main {
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* ------------------- STUFF OF TOP ------------------- */
+
+.information {
+    text-align: center;
+    align-items: center;
+}
+
+/* -------------------------------------------------------- */
+
+.blue_details {
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+.white_details {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.headline h4, .headline p {
+    display: inline;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+}
+.headline h4 {
+    font-weight: bold;
+}
+
+.module_link {
+    text-decoration: none;
+    color: black;
+}
+
+.button_employment {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.pink_box {
+    background-color: rgb(190, 42, 42);
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: rgb(217, 15, 15);
+    color: rgb(98, 113, 177);
+}
+
+.anchor_opportunity:hover {
+    background-color: lightgray;
+}
+
+/* ------------------- STUFF BOXES ------------------- */
+
+.image {
+    display: flex;
+    width: 50px;
+    margin-left: 5%;
+    margin-top: 3%;
+}

@@ -1,0 +1,118 @@
+/* ------------------- STUFF OF TOP ------------------- */
+
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15em;
+}
+
+.main {
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+.information {
+    text-align: center;
+    align-items: center;
+}
+
+/* ------------------- STUFF BOXES ------------------- */
+
+.blue_box {
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+    background-color: rgb(98, 113, 177);
+}
+
+.box_extra {
+    padding: 5%;
+}
+
+.white_box {
+    background-color: white;
+
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+}
+
+/* ------------------- STUFF BOXES ------------------- */
+
+.image {
+    display: flex;
+    width: 50px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.normal_text {
+    text-decoration: none;
+    color: black;
+}
+
+.headline h4, .headline p {
+    display: inline;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+}
+.headline h4 {
+    font-weight: bold;
+}
+
+.button_style {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.button_style:hover {
+    background-color: lightgrey;
+}
+
+.close_box {
+    background-color: rgb(190, 42, 42);;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+}
+
+.close_box:hover  {
+    background-color: rgb(217, 15, 15);
+}
+
+.center {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 1%;
+}
+
+.feedback {
+    width: 70%;
+}
+
+.assignment {
+    width: 23%;
+}
+
+.grade {
+    width: 16%;
+}

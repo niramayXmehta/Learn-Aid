@@ -1,0 +1,90 @@
+.blue_box {
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+    background-color: rgb(98, 113, 177);
+}
+
+.box_extra {
+    padding: 5%;
+}
+
+.white_box {
+    background-color: white;
+    color: black;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+}
+
+/* -------------------------------------------------------- */
+
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15em;
+}
+
+.main {
+    margin-top: 4%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+}
+
+/* ------------------- STUFF OF TOP ------------------- */
+
+.information {
+    text-align: center;
+    align-items: center;
+}
+
+/* -------------------------------------------------------- */
+
+.image {
+    display: flex;
+    width: 50px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.close_box {
+    background-color: rgb(190, 42, 42);
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+}
+
+
+.button_style {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.button_style:hover {
+    background-color: lightgrey;
+    color:rgb(98, 113, 177) ;
+}
+
+
+.close_box:hover  {
+    background-color: rgb(255, 255, 255);
+}
+
+.normal_text {
+    text-decoration: none;
+    color: black;
+}
+
+.headline h4, .headline p {
+    display: inline;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+}
+.headline h4 {
+    font-weight: bold;
+}

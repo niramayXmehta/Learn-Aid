@@ -1,0 +1,207 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+nav ul li.active {
+  font-weight: bold;
+}
+
+nav ul li:first-child {
+  width: 120px; /* set the width of the Learn Aid item to a fixed value */
+}
+
+
+
+.content {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+  flex-grow: 1;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  margin: 0 1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+footer ul li.active {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.item {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.module-details {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.module-details h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.item:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.item img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+}
+
+.item h3 {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.menu-item {
+  margin: 0 10px;
+}
+
+.menu-line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-top: 10px;
+}
+
+
+
+.settingsBtn {
+  border-radius: 44px;
+  font-family: 'montseratt', sans-serif;
+  color: #000000;
+  background: #ffffff;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 16px;
+  align-items: center;
+}
+
+.settingsBtn:hover {
+  text-decoration: none;
+}
+
+
+.moduleBtn{
+  all: unset;
+  cursor: pointer;
+}
+
+/* module content css */
+.module-page {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.module-title {
+text-align: center;
+margin-top: 30px;
+margin-bottom: 10px;
+}
+
+.lecturer {
+text-align: right;
+margin-right: 10px;
+}
+
+.progress-bar {
+float: right;
+margin-right: 20px;
+}
+
+.submissions {
+float: right;
+margin-right: 20px;
+margin-top: 10px;
+}
+
+.submissions ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.submissions li {
+margin-bottom: 5px;
+}
